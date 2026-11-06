@@ -1,0 +1,18 @@
+TransactionID,CustomerID,TransactionAmount,TransactionType,Location,TransactionHour,PreviousTransactionAmount,IsFraud,RiskStatus,RiskReason,RiskScore,RiskLevel
+1,C101,500.0,UPI,Hyderabad,10,450.0,0,Normal,No Rules Triggered,0,Low Risk
+2,C102,25000.0,TRANSFER,Delhi,2,1000.0,1,Suspicious,"High Transaction Amount, Unusual Transaction Time, Sudden Amount Increase, Location Flag",100,High Risk
+3,C103,1200.0,ATM,Chennai,14,1100.0,0,Normal,No Rules Triggered,0,Low Risk
+4,C104,45000.0,UPI,Mumbai,1,2000.0,1,Suspicious,"High Transaction Amount, Unusual Transaction Time, Sudden Amount Increase, Location Flag",100,High Risk
+5,C105,800.0,ONLINE,Tirupati,11,750.0,0,Normal,No Rules Triggered,0,Low Risk
+6,C106,35000.0,TRANSFER,Hyderabad,3,1500.0,1,Suspicious,"High Transaction Amount, Unusual Transaction Time, Sudden Amount Increase",80,High Risk
+7,C107,600.0,UPI,Delhi,16,550.0,0,Suspicious,Location Flag,20,Low Risk
+8,C108,50000.0,ONLINE,Mumbai,2,1000.0,1,Suspicious,"High Transaction Amount, Unusual Transaction Time, Sudden Amount Increase, Location Flag",100,High Risk
+9,C109,1500.0,ATM,Chennai,12,1400.0,0,Normal,No Rules Triggered,0,Low Risk
+10,C110,900.0,UPI,Tirupati,15,850.0,0,Normal,No Rules Triggered,0,Low Risk
+11,C101,30000.0,TRANSFER,Hyderabad,1,500.0,1,Suspicious,"High Transaction Amount, Unusual Transaction Time, Sudden Amount Increase",80,High Risk
+12,C102,700.0,ONLINE,Delhi,13,650.0,0,Suspicious,Location Flag,20,Low Risk
+13,C103,40000.0,UPI,Chennai,2,1200.0,1,Suspicious,"High Transaction Amount, Unusual Transaction Time, Sudden Amount Increase",80,High Risk
+14,C104,1100.0,ATM,Mumbai,17,1000.0,0,Suspicious,Location Flag,20,Low Risk
+15,C105,28000.0,TRANSFER,Tirupati,3,900.0,1,Suspicious,"High Transaction Amount, Unusual Transaction Time, Sudden Amount Increase",80,High Risk
+16,C116,50000.0,UPI,Hyderabad,2,1000.0,0,Suspicious,"High Transaction Amount, Unusual Transaction Time, Sudden Amount Increase",80,High Risk
+17,C117,500.0,UPI,Hyderabad,11,450.0,0,Normal,No Rules Triggered,0,Low Risk
